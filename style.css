@@ -1,0 +1,144 @@
+body {
+    background-color: #F5F4EF; /* Light beige-like background */
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+}
+.container-page {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 80vh;
+}
+.logo {
+    color: #E65A29;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.login-box {
+    background-color: #F1EFE7;
+    padding: 30px;
+    border-radius: 30px;
+}
+.form-control {
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.navbar {
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 1rem;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #D35640;
+    font-weight: bold;
+}
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+}
+.nav-link:hover {
+    color: #D35640;
+}
+.btn-get-started {
+    background-color: #D35640;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+}
+.btn-get-started:hover {
+    background-color: #B34730;
+}
+.btn-primary {
+    background-color: #C94B29;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.btn-primary:hover {
+    background-color: #A84022;
+}
+.footer-text {
+    font-size: 0.9rem;
+    color: #535146;
+}
+.footer-text a {
+    color: #535146;
+}
+.right-content {
+    background-color: #faf8f5;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+.quote {
+    font-style: italic;
+    color: #666;
+    font-size: 1.2rem;
+}
+.learn-more {
+    margin-top: 20px;
+    border: #000;
+    border-width: 1px;
+    text-decoration: none;
+    color: #535146;
+    font-weight: bold;
+}
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+.img-section {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.img-fluid {
+    border-radius: 0.5rem;
+}
+.features h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+.features p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.btn-started {
+    background-color: #d9534f; /* Button color */
+    color: white;
+}
+.btn-started:hover {
+    background-color: #c9302c;
+}
+footer {
+    background-color: #000; /* Black region at the end */
+    color: #fff;
+    padding: 20px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
