@@ -11,14 +11,14 @@
     <div class="container container-page align-items-center">
         <div class="row justify-content-between">
             <!-- Left Side (Form) -->
-            <div class="col-md-5">
+            <div class="col-md-5 justify-content-center">
                 <div class="text-start">
                     <div class="logo"><img src="logo1.png" alt="Claude"></div>
                     <h1 class="header">Spark your creativity</h1>
-                    <p>Start using Claude for yourself or your team</p>
 
                     <!-- Login Form -->
                     <div class="login-box border border-secondary-subtle">
+                        <p>Start using Claude for yourself or your team</p>
                         <button class="btn btn-light btn-block w-100 mb-3 align-items-center"><img src="google.svg" alt="" class="p-2">Continue with Google</button>
                         <div class="text-center mb-3">OR</div>
                         <input type="email" class="form-control input-email" placeholder="name@yourcompany.com">
@@ -37,7 +37,7 @@
             <!-- Right Side (Image/Quote) -->
             <div class="col-md-5 d-none d-md-block">
                 <div class="right-content">
-                    <p class="quote">"Claude, design a retro 8-bit pixel art crab for my game."</p>
+                    <img src="right panel.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Claude</a>
+            <a class="navbar-brand" href="#"><img src="logo1.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -70,34 +70,38 @@
     </nav>
 
     <!-- Main Section -->
-    <div class="container text-center mt-5">
+    <div class="container text-center mt-5 container-page">
         <h1 class="main-heading">Meet Claude</h1>
-        <p class="lead">Claude is a next-generation AI assistant built for work and trained to be safe, accurate, and secure.</p>
+        <p class="lead">Claude is a next-generation AI assistant built for work and <br> trained to be safe, accurate, and secure.</p>
         
-        <!-- Screenshot Image Section -->
-        <div class="my-5 img-section">
-            <video src="vid1.mp4" alt="Claude Interface" class="img-fluid w-100">
-        </div>
+        <div class="main">
+            <!-- Screenshot Image Section -->
+            <div class="my-5 vid-section">
+                <video src="vid1.mp4" alt="Claude Interface" class="img-fluid w-100" loop autoplay>
+            </div>
 
-        <!-- Features Section -->
-        <div class="row text-start mt-4 features">
-            <div class="col-md-4">
-                <h4>Create with Claude</h4>
-                <p>Draft and iterate on websites, graphics, documents, and code alongside your chat with Artifacts.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Bring your knowledge</h4>
-                <p>Claude can help you find, organize, and expand upon your expertise efficiently.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Share and collaborate with your team</h4>
-                <p>Share your best chats with your team to spark better ideas and move work forward on Claude Team plan.</p>
+            <!-- Features Section -->
+            <div class="row text-start features">
+                <div class="col-md-10">
+                    <h4>Create with Claude</h4>
+                    <p>Draft and iterate on websites, graphics, documents, and code alongside your chat with Artifacts.</p>
+                </div>
+                <hr>
+                <div class="col-md-10">
+                    <h4>Bring your knowledge</h4>
+                    <p>Claude can help you find, organize, and expand upon your expertise efficiently.</p>
+                </div>
+                <hr>
+                <div class="col-md-10">
+                    <h4>Share and collaborate with your team</h4>
+                    <p>Share your best chats with your team to spark better ideas and move work forward on Claude Team plan.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Pricing Section -->
-    <div class="container mt-5">
+    <div class="container mt-5 plans">
         <h2 class="text-center mb-4">Explore Plans</h2>
         <div class="row justify-content-center">
             <!-- Free Plan -->
@@ -105,10 +109,16 @@
                 <div class="card h-100 text-center p-3">
                     <h5 class="card-title">Free</h5>
                     <p class="card-subtitle">$0 / month</p>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>✔️ Talk to Claude on the web, iOS, and Android</li>
-                        <li>✔️ Ask about images and docs</li>
-                        <li>✔️ Access to Claude 3.5 Sonnet</li>
+                    <ul class="list-unstyled mt-3 mb-4 text-start">
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Talk to Claude on the web, iOS, and Android </p></li>
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Ask about images and docs</p></li>
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Access to Claude 3.5 Sonnet</p></li>
                     </ul>
                 </div>
             </div>
@@ -118,13 +128,25 @@
                 <div class="card h-100 text-center p-3">
                     <h5 class="card-title">Pro</h5>
                     <p class="card-subtitle">$20 / month</p>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>✔️ Everything in Free</li>
-                        <li>✔️ Use Claude 3 Opus and Haiku</li>
-                        <li>✔️ Higher usage limits versus Free</li>
-                        <li>✔️ Create Projects with Claude</li>
-                        <li>✔️ Priority bandwidth and availability</li>
-                        <li>✔️ Early access to new features</li>
+                    <ul class="list-unstyled mt-3 mb-4 text-start">
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Everything in free</p></li>
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Use Claude 3 Opus and Haiku</p></li>
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Higher usage limits versus Free</p></li>
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Create Projects to work with Claude around a set of docs, code, or files</p></li>
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Priority bandwidth and availability</p></li>
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg><p>Early access to new features</p></li>
                     </ul>
                 </div>
             </div>
@@ -134,11 +156,19 @@
                 <div class="card h-100 text-center p-3">
                     <h5 class="card-title">Team</h5>
                     <p class="card-subtitle">$25 / month <small>(Per member, 5 minimum)</small></p>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>✔️ Everything in Pro</li>
-                        <li>✔️ Higher usage limits versus Pro</li>
-                        <li>✔️ Share and discover chats from teammates</li>
-                        <li>✔️ Central billing and administration</li>
+                    <ul class="list-unstyled mt-3 mb-4 text-start">
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Everything in Pro</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Higher usage limits versus Pro</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Share and discover chats from teammates</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Central billing and administration</p></li>
                     </ul>
                 </div>
             </div>
@@ -148,15 +178,31 @@
                 <div class="card h-100 text-center p-3">
                     <h5 class="card-title">Enterprise</h5>
                     <p class="card-subtitle">Contact Sales</p>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>✔️ Everything in Team</li>
-                        <li>✔️ More usage than Team</li>
-                        <li>✔️ Expanded context window</li>
-                        <li>✔️ Single sign-on (SSO) and domain capture</li>
-                        <li>✔️ Role-based access with fine-grained permissioning</li>
-                        <li>✔️ System for Cross-domain Identity Management (SCIM)</li>
-                        <li>✔️ Audit logs</li>
-                        <li>✔️ Data source integrations</li>
+                    <ul class="list-unstyled mt-3 mb-4 text-start">
+                        <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Everything in Team</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>More usage than Team</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Expanded context window</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Single sign-on (SSO) and domain capture</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Role-based access with fine grained permissioning</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>System for Cross-domain Identity Management (SCIM)</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Audit logs</p></li>
+                          <li class="d-flex justify-content-center"><svg class="flex-start" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg><p>Data source integrations</p></li>
                     </ul>
                 </div>
             </div>
@@ -164,9 +210,9 @@
     </div>
 
     <!-- FAQ Section -->
-    <div class="container mt-5">
+    <div class="container mx-auto mt-5 faq">
         <h2 class="text-center mb-4">Frequently Asked Questions</h2>
-        <div class="accordion" id="faqAccordion">
+        <div class="accordion mx-auto" id="faqAccordion ">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -206,29 +252,40 @@
         </div>
     </div>
 
-    <!-- Footer Section (Black Region) -->
-    <footer class="bg-dark text-white pt-4 mt-5">
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <p>© 2024 Claude. All rights reserved.</p>
+                <!-- Left Section: Logo and Disclaimer -->
+                <div class="col-md-6 footer-section">
+                    <div class="footer-logo"><img src="footer logo.png" alt=""></div>
+                    <p class="footer-small-text">
+                        This site is protected by reCAPTCHA Enterprise. The Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.
+                    </p>
                 </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="#" class="text-white me-3">Product</a>
-                    <a href="#" class="text-white me-3">Research</a>
-                    <a href="#" class="text-white me-3">Careers</a>
-                    <a href="#" class="text-white">Company</a>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-md-6">
-                    <small class="text-muted">This site is protected by reCAPTCHA Enterprise. The Google Privacy Policy and Terms of Service apply.</small>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="#" class="text-white me-3">Privacy Policy</a>
-                    <a href="#" class="text-white me-3">Terms of Service</a>
-                    <a href="#" class="text-white me-3">Compliance</a>
-                    <a href="#" class="text-white">News</a>
+
+                <!-- Right Section: Links -->
+                <div class="col-md-6 footer-section footer-links d-flex justify-content-end">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Your Privacy Choices</a></li>
+                                <li><a href="#">Responsible Disclosure Policy</a></li>
+                                <li><a href="#">Compliance</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
